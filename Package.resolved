@@ -1,0 +1,24 @@
+{
+  "originHash" : "796f417da3f80bbc5d01d04d4b94f838fcf538d2d5273aeb1dee12a6a3423205",
+  "pins" : [
+    {
+      "identity" : "lsfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LudvigShtirner/LSFoundation.git",
+      "state" : {
+        "revision" : "1714c4d2fa0a41c790c43c5b84ee33e38e5f7b19",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 3
+}
