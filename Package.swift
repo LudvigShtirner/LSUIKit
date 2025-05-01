@@ -33,9 +33,7 @@ private let snapKit = RemotePackage(
 
 let package = Package(
     name: lsUIKit,
-    platforms: [.iOS(
-        .v15
-    )],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: lsUIKit,
@@ -43,29 +41,15 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(
-            url: foundation.url,
-            .upToNextMajor(
-                from: "0.1.0"
-            )
-        ),
-        .package(
-            url: snapKit.url,
-            .upToNextMajor(
-                from: "5.0.1"
-            )
-        )
+        .package(url: foundation.url, .upToNextMajor(from: "0.1.4")),
+        .package(url: snapKit.url, .upToNextMajor(from: "5.0.1"))
     ],
     targets: [
         .target(
             name: lsUIKit,
             dependencies: [
-                .byName(
-                    name: foundation.name
-                ),
-                .byName(
-                    name: snapKit.name
-                )
+                .byName(name: foundation.name),
+                .byName(name: snapKit.name)
             ]
         ),
         .testTarget(
@@ -75,6 +59,6 @@ let package = Package(
                     name: lsUIKit
                 )
             ]
-        ),
+        )
     ]
 )

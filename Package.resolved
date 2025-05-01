@@ -1,13 +1,13 @@
 {
-  "originHash" : "796f417da3f80bbc5d01d04d4b94f838fcf538d2d5273aeb1dee12a6a3423205",
+  "originHash" : "480972a22bf3f758cddc9851b78e707a7c10b5193708a74a93ba82344153353b",
   "pins" : [
     {
       "identity" : "lsfoundation",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LudvigShtirner/LSFoundation.git",
       "state" : {
-        "revision" : "1714c4d2fa0a41c790c43c5b84ee33e38e5f7b19",
-        "version" : "0.1.0"
+        "revision" : "19b3460806049d3d3e4ea35ae988f8140cecc075",
+        "version" : "0.1.5"
       }
     },
     {
